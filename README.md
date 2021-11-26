@@ -13,14 +13,17 @@ int main(){
 	getline(cin, cari);
 	
 	for(int i=0;i<3;i++){
+	
 		if(cari==kelas[i]){  //apakah 2 itu sama dengan angka 2 ? true
-			cout << "nama tersebut adalah mahasiswa kelas B" << endl;
+		
+		cout << "nama tersebut adalah mahasiswa kelas B" << endl;
                                                               
-			cek = true;
+	cek = true;
 		}
 	}
 	
 	if(cek==false){
-		cout << "nama tersebut tidak ditemukan pada kelas B";
+	
+	cout << "nama tersebut tidak ditemukan pada kelas B";
 	}
 }
