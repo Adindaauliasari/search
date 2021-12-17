@@ -14,7 +14,8 @@ int main(){
 	
 	for(int i=0;i<3;i++){
 	
-		if(cari==kelas[i]){  //apakah 2 itu sama dengan angka 2 ? true
+		if(cari==kelas[i])
+		{ 
 		
 		cout << "nama tersebut adalah mahasiswa kelas B" << endl;
                                                               
