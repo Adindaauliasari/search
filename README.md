@@ -2,7 +2,9 @@
   
 using namespace std;
 
-int main (){
+int main ()
+
+{
   
 	string kelas[3] = {"adinda","aulia","sari"};
 	string cari;
